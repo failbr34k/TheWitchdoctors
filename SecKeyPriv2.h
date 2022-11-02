@@ -5,9 +5,6 @@
 //  The Witchdoctors - Created by failbr34k on 2022-11-02.
 //
 
-#ifndef _SECURITY_SECKEYPRIV_H_
-#define _SECURITY_SECKEYPRIV_H_
-
 #include <Security/SecBase.h>
 #include <Security/SecKey.h>
 #include "SecAsn1Types.h"
