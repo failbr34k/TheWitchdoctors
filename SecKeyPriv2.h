@@ -47,5 +47,5 @@ typedef CF_ENUM(uint32_t, SecKeySystemKeyType)
 
 @result On success a SecKeyRef containing the requested key is returned, on failure it returns NULL.
 */
-SecKeyRef SecKeyCopySystemKey(SecKeyAttestationKeyType keyType, CFErrorRef *error)
+SecKeyRef SecKeyCopySystemKey(SecKeySystemKeyType keyType, CFErrorRef *error)
 __OSX_AVAILABLE(12.0) __IOS_AVAILABLE(15.0) __TVOS_AVAILABLE(15.0);
