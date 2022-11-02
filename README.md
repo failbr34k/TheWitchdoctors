@@ -12,6 +12,6 @@ SecKeyCopyAttestationKey has been deprecated and replaced with SecKeyCopySystemK
 
 New key types that have been noted are:
 
-    kSecKeyAttestationKeyTypeDAKCommited
-    kSecKeyAttestationKeyTypeDAKProposed
-    kSecKeyAttestationKeyTypeHAVEnc
+    kSecKeySystemKeyTypeDAKCommited
+    kSecKeySystemKeyTypeDAKProposed
+    kSecKeySystemKeyTypeHAVEnc
