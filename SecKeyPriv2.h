@@ -1,6 +1,6 @@
 //
 //  SecKeyPriv2.h
-//  MacOS / iOS Security Framework extension for private functions.
+//  MacOS / iOS 15.x Security Framework extension for private functions.
 //
 //  The Witchdoctors - Created by failbr34k on 2022-11-02.
 //
