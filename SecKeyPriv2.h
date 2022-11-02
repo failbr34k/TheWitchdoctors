@@ -23,19 +23,19 @@
 
 
 /*!
- @enum SecKeyAttestationKeyType
+ @enum SecKeySystemKeyType
  @abstract Defines types of builtin attestation keys.
 */
-typedef CF_ENUM(uint32_t, SecKeyAttestationKeyType)
+typedef CF_ENUM(uint32_t, SecKeySystemKeyType)
 {
-    kSecKeyAttestationKeyTypeSIK = 0x0,
-    kSecKeyAttestationKeyTypeGID = 0x1,
-    kSecKeyAttestationKeyTypeUIKCommitted = 2,
-    kSecKeyAttestationKeyTypeUIKProposed  = 3,
-    kSecKeyAttestationKeyTypeSecureElement = 4,
-    kSecKeyAttestationKeyTypeDAKCommited = 0x7,
-    kSecKeyAttestationKeyTypeDAKProposed = 0x8,
-    kSecKeyAttestationKeyTypeHAVEnc = 0x9
+    kSecKeySystemKeyTypeSIK = 0x0,
+    kSecKeySystemKeyTypeGID = 0x1,
+    kSecKeySystemKeyTypeUIKCommitted = 0x2,
+    kSecKeySystemKeyTypeUIKProposed  = 0x3,
+    kSecKeySystemKeyTypeSecureElement = 0x4,
+    kSecKeySystemKeyTypeDAKCommited = 0x7,
+    kSecKeySystemKeyTypeDAKProposed = 0x8,
+    kSecKeySystemKeyTypeHAVEnc = 0x9
 };
 
 /*!
