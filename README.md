@@ -3,7 +3,7 @@
 
 - Wed Nov 2:
 Description:
-Added SecKeyPriv2.h iOS 15.x SecKey private header extensions created by failbr34k with the help of iamthekid's ios 15 JB.
+Added SecKeyPriv2.h iOS 15.x SecKey private header extensions created by failbr34k with the help of dm1ln3 and iamthekid's ios 15 JB.
 
 WriteUp: 
 DRM / Activtion has been updated again by apple to reflect a similar DRM and key creation to MacOS.
